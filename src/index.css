@@ -1,0 +1,18 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color:#8FA8C1;
+  font-family: 'Trebuchet MS';
+}
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:#1E1E1E;
+  min-height: 100vh;
+  
+}
+button{
+  cursor: pointer;
+}

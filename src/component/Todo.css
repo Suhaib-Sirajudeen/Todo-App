@@ -1,0 +1,109 @@
+
+.main-contianer{
+  background-color: #152431;
+  max-width: 612px;
+  width: 100%;
+  min-height: 612px;
+  border-radius: 6px;
+  border: 1px;
+  box-shadow: 24px 27px #0000004D;
+  padding: 50px 0px;
+  
+}
+
+.main-contianer h1{
+  text-align: center;
+  margin-bottom: 36px;
+}
+.input-contianer{
+  display: flex;
+  justify-content: space-evenly;
+  gap: 8px;
+  margin: 0px 50px;
+}
+.input-contianer input{
+  background-color: #152431;
+  border-color: #8FA8C180;
+  border-radius: 4px;
+  height: 40px;
+  max-width: 297px;
+  width: 100%;
+  padding: 12px;
+
+}
+.input-contianer button{
+  width:145px ;
+}
+.input-contianer button,.save-button{
+  background-color: #0C5488;
+  border-radius: 4px;
+  border: none;
+  padding: 12px;
+}
+.display-task{
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px dashed #8FA8C14D;
+  /* margin: 0px 50px; */
+  padding: 30px;
+}
+.display-task h3{
+  margin: 0px 50px;
+  max-width : 200px;
+  width: 100%;
+  word-break: break-all;
+  overflow: hidden;
+}
+.edit-button{
+  margin-left: 120px;
+  max-width: 200px;
+  width: 100%;
+}
+.edit-button button{
+  background-color: transparent;
+  border: none;
+  max-width: 200px;
+  
+ 
+}
+.edit-button button .delete-img{
+  filter: invert(1);
+}
+.edit-button button img{
+  opacity: .5;
+}
+.edit-contianer{
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px dashed #8FA8C14D;
+  /* background-color: aliceblue; */
+}
+.edit-section{
+  display: flex;
+  justify-content: space-between;
+  /* margin: 50px; */
+  
+  
+
+}
+.edit-section input{
+  background-color: #152431;
+  border-color: #8FA8C180;
+  border-radius: 4px;
+  height: 40px;
+  padding: 12px;
+  margin: 20px 50px;
+ 
+
+}
+.save-button{
+  padding: 12px 28px;
+  margin-right: 11px;
+  
+}
+.cancel-button{
+  border-radius: 4px;
+  border: none;
+  padding: 12px;
+
+}
