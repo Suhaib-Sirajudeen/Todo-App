@@ -1,109 +1,100 @@
-
-.main-contianer{
+.main-contianer {
   background-color: #152431;
   max-width: 612px;
   width: 100%;
   min-height: 612px;
   border-radius: 6px;
   border: 1px;
-  box-shadow: 24px 27px #0000004D;
+  box-shadow: 24px 27px #0000004d;
   padding: 50px 0px;
-  
 }
 
-.main-contianer h1{
+.main-contianer h1 {
   text-align: center;
   margin-bottom: 36px;
 }
-.input-contianer{
+.input-contianer {
   display: flex;
   justify-content: space-evenly;
   gap: 8px;
   margin: 0px 50px;
 }
-.input-contianer input{
+.input-contianer input {
   background-color: #152431;
-  border-color: #8FA8C180;
+  border-color: #8fa8c180;
   border-radius: 4px;
   height: 40px;
   max-width: 297px;
   width: 100%;
   padding: 12px;
-
 }
-.input-contianer button{
-  width:145px ;
+.input-contianer button {
+  width: 145px;
 }
-.input-contianer button,.save-button{
-  background-color: #0C5488;
+.input-contianer button,
+.save-button {
+  background-color: #0c5488;
   border-radius: 4px;
   border: none;
   padding: 12px;
 }
-.display-task{
-  display: flex;
-  justify-content: space-between;
-  border-bottom: 1px dashed #8FA8C14D;
+.display-task {
+  display: grid;
+  grid-template-columns: 2fr 0.5fr;
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+
+  border-bottom: 1px dashed #8fa8c14d;
   /* margin: 0px 50px; */
   padding: 30px;
 }
-.display-task h3{
+.display-task h3 {
   margin: 0px 50px;
-  max-width : 200px;
   width: 100%;
   word-break: break-all;
   overflow: hidden;
 }
-.edit-button{
-  margin-left: 120px;
-  max-width: 200px;
+.edit-button {
+  margin-left: 30px;
   width: 100%;
 }
-.edit-button button{
+.edit-button button {
   background-color: transparent;
   border: none;
   max-width: 200px;
-  
- 
 }
-.edit-button button .delete-img{
+.edit-button button .delete-img {
   filter: invert(1);
 }
-.edit-button button img{
-  opacity: .5;
+.edit-button button img {
+  opacity: 0.5;
 }
-.edit-contianer{
+.edit-contianer {
   display: flex;
   flex-direction: column;
-  border-bottom: 1px dashed #8FA8C14D;
+  border-bottom: 1px dashed #8fa8c14d;
   /* background-color: aliceblue; */
 }
-.edit-section{
+.edit-section {
   display: flex;
   justify-content: space-between;
   /* margin: 50px; */
-  
-  
-
 }
-.edit-section input{
+.edit-section input {
   background-color: #152431;
-  border-color: #8FA8C180;
+  border-color: #8fa8c180;
   border-radius: 4px;
   height: 40px;
   padding: 12px;
   margin: 20px 50px;
- 
-
 }
-.save-button{
+.save-button {
   padding: 12px 28px;
   margin-right: 11px;
-  
 }
-.cancel-button{
+.cancel-button {
   border-radius: 4px;
   border: none;
   padding: 12px;
-
 }
