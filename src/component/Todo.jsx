@@ -55,8 +55,9 @@ export const Todo = () => {
     localStorage.setItem("todoList", JSON.stringify(newTasksList));
   };
 
-  const updateId = (id) => {
-    SetEditTaskId(id); //getting the id of the task to update
+  const updateId = (tasks) => {
+    SetEditTaskId(tasks.id); //getting the id of the task to update
+    setEditedTask(tasks.task);
   };
   const updateTasks = (id) => {
     if (editedTask) {
@@ -172,7 +173,7 @@ export const Todo = () => {
                         alt=""
                         width="24px"
                         height="24px"
-                        onClick={() => updateId(item.id)}
+                        onClick={() => updateId(item)}
                       />
                     </button>
                     <button>
